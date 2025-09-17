@@ -27,7 +27,7 @@ const student = {
    lastName: "Almomtin",
    _gpa: 3.5,
    get fullName(){
-      return this.firsrtName + " " + this.lastName;
+      return this.firstName + " " + this.lastName;
    },
    set updateGPA(newGPA){
       if(newGPA >= 0.0 && newGPA <= 4.0){
