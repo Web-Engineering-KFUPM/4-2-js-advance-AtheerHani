@@ -62,6 +62,11 @@ Task:
 1) Create a String object or plain string.
 2) Use .charAt(index) and .length to output characters and size.
 */
+const stringObj = new String("Hello World!");
+console.log("The string is: " + stringObj)
+console.log("The first character in the string is: " + stringObj.charAt(0));
+console.log("The last character in the string is: "  + stringObj.charAt(11));
+console.log("The length of the string is: " + stringObj.length);
 
 // ===================================
 // TODO-4: DATE — day, month, and year
