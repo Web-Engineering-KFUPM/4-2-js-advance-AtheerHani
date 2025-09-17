@@ -1,0 +1,6 @@
+{
+    "editor.accessibilitySupport": "auto",
+    "editor.inlayHints.enabled": "on",
+    "editor.suggestOnTriggerCharacters": true,
+    "editor.parameterHints.cycle": true
+}

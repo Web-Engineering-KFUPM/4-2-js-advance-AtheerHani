@@ -78,6 +78,10 @@ Task:
 //    (Hint: getDate(), getMonth(), getFullYear() )
 */
 
+const date = new Date();
+console.log("The current day of the month is: " + date.getDate());
+console.log("The current month of the year is: " + date.getMonth());
+console.log("The current year is: " + date.getFullYear());
 // ============================================================
 // TODO-5: ARRAY + SPREAD — find MIN and MAX from 10 numbers
 // ============================================================
@@ -87,6 +91,7 @@ Task:
 2) Use spread syntax with Math.min(...) and Math.max(...) to find extremes.
 3) Display both values.
 */
+
 
 // ===================================================================
 // TODO-6: EXCEPTIONS — try/catch/finally with EMPTY ARRAY edge case
