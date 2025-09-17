@@ -22,6 +22,26 @@ Task:
 4) Create an instance/object and output its attributes using the getter(s).
 */
 
+const student = {
+   firstName: "Atheer",
+   lastName: "Almomtin",
+   _gpa: 3.5,
+   get fullName(){
+      return this.firsrtName + " " + this.lastName;
+   },
+   set updateGPA(newGPA){
+      if(newGPA >= 0.0 && newGPA <= 4.0){
+         this._gpa = newGPA;
+      }
+   },
+}
+console.log(student.fullName);
+student.updateGPA = 3.8;
+console.log(student._gpa);
+
+
+
+
 // ====================================
 // TODO-2: OBJECT AS MAP + for...in LOOP
 // ====================================
